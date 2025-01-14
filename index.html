@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPro - Video Editing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <i class="fas fa-video"></i>
+                <span>PixelPro</span>
+            </a>
+            
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home"class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1 class="hero-title">Transform Your Vision Into <span class="gradient-text">Cinematic Reality</span></h1>
+                <p class="hero-description">Professional video editing services that bring your stories to life. From color grading to motion graphics, we make every frame count.</p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn btn-primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support Available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="image-preview">
+                    <img src="images/hero.jpg" alt="Professional Video Editing Workspace" class="hero-image">
+
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <i class="fas fa-video"></i>
+                            <span>4K Quality</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-magic"></i>
+                            <span>Color Grading</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-layer-group"></i>
+                            <span>VFX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/image 1.jpg" alt="Commercial Video Editing">
+                    </div>
+                    <i class="fas fa-video service-icon"></i>
+                    <h3 class="service-title">Commercial Video Editing</h3>
+                    <p class="service-description">Transform your raw footage into compelling commercials that drive engagement and conversions.</p>
+                    <ul class="service-features">
+                        <li>Brand-focused storytelling</li>
+                        <li>High-impact transitions</li>
+                        <li>Call-to-action optimization</li>
+                        <li>Color grading & effects</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/Film & Documentary.jpg" alt="Film & Documentary">
+                    </div>
+                    <i class="fas fa-film service-icon"></i>
+                    <h3 class="service-title">Film & Documentary</h3>
+                    <p class="service-description">Craft compelling narratives that captivate audiences and bring your story to life.</p>
+                    <ul class="service-features">
+                        <li>Narrative structure</li>
+                        <li>Scene composition</li>
+                        <li>Emotional pacing</li>
+                        <li>Sound design</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/youtube content.jpg" alt="YouTube Content">
+                    </div>
+                    <i class="fab fa-youtube service-icon"></i>
+                    <h3 class="service-title">YouTube Content</h3>
+                    <p class="service-description">Optimize your content for maximum engagement and growth on YouTube.</p>
+                    <ul class="service-features">
+                        <li>Retention optimization</li>
+                        <li>Engaging thumbnails</li>
+                        <li>Pattern interrupts</li>
+                        <li>Hook creation</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/Social Media Content.jpg" alt="Social Media Content">
+                    </div>
+                    <i class="fas fa-share-alt service-icon"></i>
+                    <h3 class="service-title">Social Media Content</h3>
+                    <p class="service-description">Create scroll-stopping content optimized for each social platform.</p>
+                    <ul class="service-features">
+                        <li>Platform-specific formats</li>
+                        <li>Trending style editing</li>
+                        <li>Engagement optimization</li>
+                        <li>Caption integration</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/Wedding Films.jpg" alt="Wedding Films">
+                    </div>
+                    <i class="fas fa-heart service-icon"></i>
+                    <h3 class="service-title">Wedding Films</h3>
+                    <p class="service-description">Turn your special moments into timeless memories with cinematic wedding films.</p>
+                    <ul class="service-features">
+                        <li>Emotional storytelling</li>
+                        <li>Cinematic transitions</li>
+                        <li>Music synchronization</li>
+                        <li>Highlight reels</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/Motion Graphics.jpg" alt="Motion Graphics">
+                    </div>
+                    <i class="fas fa-magic service-icon"></i>
+                    <h3 class="service-title">Motion Graphics</h3>
+                    <p class="service-description">Enhance your videos with stunning motion graphics and visual effects.</p>
+                    <ul class="service-features">
+                        <li>2D/3D animations</li>
+                        <li>Logo animations</li>
+                        <li>Infographics</li>
+                        <li>Title sequences</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="film">Film</button>
+                <button class="filter-btn" data-filter="youtube">YouTube</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Commercial Projects -->
+                <div class="portfolio-item commercial" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="images/Commercial Project.jpg" alt="Commercial Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Commercial Project</h3>
+                                <p>Commercial Advertisement</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-details-link" data-project="commercial">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item commercial" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="images/Commercial Project 1.jpg" alt="Commercial Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Commercial Project</h3>
+                                <p>Brand Story</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-details-link" data-project="commercial">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Film Projects -->
+                <div class="portfolio-item film" data-category="film">
+                    <div class="portfolio-image">
+                        <img src="images/Film & Documentary.jpg" alt="Film Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Film Project</h3>
+                                <p>Documentary Film</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-details-link" data-project="film">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- YouTube Projects -->
+                <div class="portfolio-item youtube" data-category="youtube">
+                    <div class="portfolio-image">
+                        <img src="images/youtube content.jpg" alt="YouTube Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>YouTube Project</h3>
+                                <p>YouTube Content</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-details-link" data-project="youtube">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wedding Projects -->
+                <div class="portfolio-item wedding" data-category="wedding">
+                    <div class="portfolio-image">
+                        <img src="images/Wedding Films.jpg" alt="Wedding Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Wedding Project</h3>
+                                <p>Wedding Film</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-details-link" data-project="wedding">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Portfolio Items -->
+                <div class="portfolio-item film" data-category="film">
+                    <div class="portfolio-image">
+                        <img src="images/Film & Documentary.jpg" alt="Film Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Film Project</h3>
+                                <p>Nature Documentary</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-details-link" data-project="film">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Modal -->
+        <div class="video-modal" id="videoModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="video-container">
+                    <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Details Modal -->
+        <div class="project-modal" id="projectModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="project-details">
+                    <div class="project-header">
+                        <h2 id="projectTitle"></h2>
+                        <p id="projectCategory"></p>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-description">
+                            <h3>About the Project</h3>
+                            <p id="projectDescription"></p>
+                        </div>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <h4>Client</h4>
+                                <p id="projectClient"></p>
+                            </div>
+                            <div class="meta-item">
+                                <h4>Duration</h4>
+                                <p id="projectDuration"></p>
+                            </div>
+                            <div class="meta-item">
+                                <h4>Services</h4>
+                                <p id="projectServices"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-gallery" id="projectGallery">
+                        <!-- Gallery images will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Pricing Plans</span>
+                <h2 class="title">Choose Your Perfect Plan</h2>
+                <p class="description">Select the best package for your needs</p>
+                
+                <!-- Pricing Toggle -->
+                <div class="pricing-toggle">
+                    <span class="monthly active">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricingToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="yearly">Yearly <span class="save-badge">Save 20%</span></span>
+                </div>
+            </div>
+
+            <div class="pricing-cards">
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="description">Perfect for small projects</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 2 Videos per month</li>
+                            <li><i class="fas fa-check"></i> Basic editing</li>
+                            <li><i class="fas fa-check"></i> 720p Quality</li>
+                            <li><i class="fas fa-check"></i> 2 Revisions</li>
+                            <li><i class="fas fa-check"></i> 3-day delivery</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#contact" class="select-plan">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="description">Best for growing businesses</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 4 Videos per month</li>
+                            <li><i class="fas fa-check"></i> Advanced editing</li>
+                            <li><i class="fas fa-check"></i> 1080p Quality</li>
+                            <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+                            <li><i class="fas fa-check"></i> 2-day delivery</li>
+                            <li><i class="fas fa-check"></i> Motion Graphics</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#contact" class="select-plan">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="description">For professional creators</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 8 Videos per month</li>
+                            <li><i class="fas fa-check"></i> Premium editing</li>
+                            <li><i class="fas fa-check"></i> 4K Quality</li>
+                            <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+                            <li><i class="fas fa-check"></i> 1-day delivery</li>
+                            <li><i class="fas fa-check"></i> Advanced Effects</li>
+                            <li><i class="fas fa-check"></i> Custom Branding</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#contact" class="select-plan">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Get In Touch</span>
+                <h2 class="title">Let's Work Together</h2>
+                <p class="description">Ready to bring your ideas to life? We're here to help create something amazing.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-cards">
+                        <div class="contact-card shine-effect">
+                            <div class="card-content">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="card-text">
+                                    <h3>Visit Us</h3>
+                                    <p>123 Creative Studio</p>
+                                    <p>New York, NY 10001</p>
+                                </div>
+                            </div>
+                            <div class="card-shine"></div>
+                        </div>
+
+                        <div class="contact-card shine-effect">
+                            <div class="card-content">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="card-text">
+                                    <h3>Email Us</h3>
+                                    <p>info@pixelpro.com</p>
+                                    <p>support@pixelpro.com</p>
+                                </div>
+                            </div>
+                            <div class="card-shine"></div>
+                        </div>
+
+                        <div class="contact-card shine-effect">
+                            <div class="card-content">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="card-text">
+                                    <h3>Call Us</h3>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p>Mon-Fri, 9am-6pm</p>
+                                </div>
+                            </div>
+                            <div class="card-shine"></div>
+                        </div>
+                    </div>
+
+                    <div class="social-connect">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link glow-effect" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link glow-effect" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link glow-effect" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link glow-effect" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link glow-effect" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper glass-effect">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group floating">
+                                <div class="input-group">
+                                    <input type="text" id="name" required>
+                                    <label for="name">Your Name</label>
+                                    <i class="fas fa-user input-icon"></i>
+                                    <div class="input-border"></div>
+                                </div>
+                            </div>
+                            <div class="form-group floating">
+                                <div class="input-group">
+                                    <input type="email" id="email" required>
+                                    <label for="email">Your Email</label>
+                                    <i class="fas fa-envelope input-icon"></i>
+                                    <div class="input-border"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group floating">
+                            <div class="input-group">
+                                <select id="service" required>
+                                    <option value="" disabled selected></option>
+                                    <option value="commercial">Commercial Videos</option>
+                                    <option value="wedding">Wedding Films</option>
+                                    <option value="youtube">YouTube Content</option>
+                                    <option value="motion">Motion Graphics</option>
+                                    <option value="color">Color Grading</option>
+                                </select>
+                                <label for="service">Select Service</label>
+                                <i class="fas fa-film input-icon"></i>
+                                <div class="input-border"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group floating">
+                            <div class="input-group">
+                                <textarea id="message" required></textarea>
+                                <label for="message">Your Message</label>
+                                <i class="fas fa-comment input-icon"></i>
+                                <div class="input-border"></div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn glow-effect">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="contact-shape"></div>
+        <div class="contact-particles"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-column">
+                        <div class="footer-logo">
+                            <a href="#" class="logo">PixelPro</a>
+                        </div>
+                        <p class="footer-description">
+                            Professional video editing services that bring your stories to life. From color grading to motion graphics, we make every frame count.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#pricing">Pricing Plans</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-column">
+                        <h3>Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Commercial Videos</a></li>
+                            <li><a href="#">Wedding Films</a></li>
+                            <li><a href="#">YouTube Content</a></li>
+                            <li><a href="#">Motion Graphics</a></li>
+                            <li><a href="#">Color Grading</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="footer-column">
+                        <h3>Newsletter</h3>
+                        <p class="newsletter-text">Subscribe to our newsletter for the latest updates and exclusive offers.</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email" required>
+                                <button type="submit" class="newsletter-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                            <p><i class="fas fa-envelope"></i> info@pixelpro.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">
+                        &copy; <span id="currentYear">2025</span> PixelPro. All rights reserved.
+                    </p>
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Shape -->
+        <div class="footer-shape"></div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
